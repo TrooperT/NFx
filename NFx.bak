@@ -1,12 +1,96 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date Wednesday, February 19, 2014 'PMt' 02:49:03 PM
 LIBS:power
-EELAYER 24 0
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:aat3220
+LIBS:aat3221igv
+LIBS:bd9c301fj
+LIBS:bitfury
+LIBS:capacitor-nonpolar
+LIBS:capacitor-polar
+LIBS:cp1
+LIBS:diode
+LIBS:ft232h
+LIBS:ft232rl
+LIBS:gnd-pwr
+LIBS:gnd
+LIBS:inductor-ironcore
+LIBS:inductor
+LIBS:led
+LIBS:mcp2210
+LIBS:miniusb
+LIBS:mos_n
+LIBS:ncp1117
+LIBS:quartz-3p
+LIBS:resistor
+LIBS:tst
+LIBS:vcc
+LIBS:TXB0104
+LIBS:con-molex-2
+LIBS:con-molex
+LIBS:NFx-cache
+EELAYER 27 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "19 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,4 +98,114 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MCP2210-SO U1
+U 1 1 530444C7
+P 2200 1550
+F 0 "U1" H 2200 1600 50  0000 L BNN
+F 1 "MCP2210-SO" H 2550 1450 50  0000 L BNN
+F 2 "SSOP-20" H 2550 1400 50  0001 L CNN
+F 3 "" H 3270 -425 60  0000 C CNN
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MINIUSB CN1
+U 1 1 530454C9
+P 850 1950
+F 0 "CN1" H 900 1850 60  0000 C CNN
+F 1 "MINIUSB" H 940 2245 60  0000 C CNN
+F 2 "" H 950 2100 60  0000 C CNN
+F 3 "" H 950 2100 60  0000 C CNN
+	1    850  1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L TXB0104 U2
+U 1 1 53045865
+P 4900 2350
+F 0 "U2" H 4900 2250 50  0000 C CNN
+F 1 "TXB0104" H 4900 2450 50  0000 C CNN
+F 2 "MODULE" H 4900 2350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4900 2350 50  0001 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L QUARTZ-3P X1
+U 1 1 530459E3
+P 1600 4100
+F 0 "X1" H 1600 4250 60  0000 C CNN
+F 1 "QUARTZ-3P" H 1600 4350 60  0000 C CNN
+F 2 "" H 1600 4100 60  0000 C CNN
+F 3 "" H 1600 4100 60  0000 C CNN
+	1    1600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BD9C301FJ U3
+U 1 1 530470F0
+P 7150 1950
+F 0 "U3" H 7150 2100 60  0000 L CNN
+F 1 "BD9C301FJ" H 7150 2000 60  0000 L CNN
+F 2 "~" H 7400 2000 60  0000 C CNN
+F 3 "~" H 7400 2000 60  0000 C CNN
+	1    7150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BD9C301FJ U4
+U 1 1 530470FF
+P 9000 1950
+F 0 "U4" H 9000 2100 60  0000 L CNN
+F 1 "BD9C301FJ" H 9000 2000 60  0000 L CNN
+F 2 "~" H 9250 2000 60  0000 C CNN
+F 3 "~" H 9250 2000 60  0000 C CNN
+	1    9000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 87832-06 X2
+U 1 1 530474A4
+P 3750 3850
+F 0 "X2" H 3675 4050 50  0000 L BNN
+F 1 "87832-06" H 3675 3588 50  0000 L BNN
+F 2 "con-molex-87832-06" H 3750 4000 50  0001 C CNN
+F 3 "" H 3750 3850 60  0000 C CNN
+	1    3750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 53050A23
+P 3900 950
+F 0 "#PWR?" H 3900 900 20  0001 C CNN
+F 1 "+12V" H 3900 1050 30  0000 C CNN
+F 2 "" H 3900 950 60  0000 C CNN
+F 3 "" H 3900 950 60  0000 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 53050A39
+P 4200 950
+F 0 "#PWR?" H 4200 1040 20  0001 C CNN
+F 1 "+5V" H 4200 1040 30  0000 C CNN
+F 2 "" H 4200 950 60  0000 C CNN
+F 3 "" H 4200 950 60  0000 C CNN
+	1    4200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53050A53
+P 4500 950
+F 0 "#PWR?" H 4500 950 30  0001 C CNN
+F 1 "GND" H 4500 880 30  0001 C CNN
+F 2 "" H 4500 950 60  0000 C CNN
+F 3 "" H 4500 950 60  0000 C CNN
+	1    4500 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

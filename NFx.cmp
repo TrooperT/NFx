@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Wednesday, February 19, 2014 'AMt' 04:17:11 AM
+
+BeginCmp
+TimeStamp = /530454C9;
+Reference = CN1;
+ValeurCmp = MINIUSB;
+IdModule  = MINIBUSB;
+EndCmp
+
+BeginCmp
+TimeStamp = /530444C7;
+Reference = U1;
+ValeurCmp = MCP2210-SO;
+IdModule  = SSOP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /53045865;
+Reference = U2;
+ValeurCmp = TXB0104;
+IdModule  = so-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /530470F0;
+Reference = U3;
+ValeurCmp = BD9C301FJ;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /530470FF;
+Reference = U4;
+ValeurCmp = BD9C301FJ;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /530459E3;
+Reference = X1;
+ValeurCmp = QUARTZ-3P;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /530474A4;
+Reference = X2;
+ValeurCmp = 87832-06;
+IdModule  = con-molex-5566-6;
+EndCmp
+
+EndListe
