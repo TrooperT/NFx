@@ -1,4 +1,4 @@
-update=Thursday, February 20, 2014 'PMt' 01:11:53 PM
+update=Friday, February 21, 2014 'AMt' 04:12:38 AM
 last_client=eeschema
 [general]
 version=1
@@ -144,3 +144,4 @@ LibName82=TXB0104
 LibName83=con-molex-2
 LibName84=con-molex
 LibName85=k16
+LibName86=tps54327
