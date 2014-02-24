@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sunday, February 23, 2014 'AMt' 01:54:35 AM
+EESchema Schematic File Version 2  date Monday, February 24, 2014 'AMt' 12:19:55 AM
 LIBS:power
 LIBS:74xgxx
 LIBS:74xx
@@ -92,7 +92,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
 Title "NanoFury NFx"
-Date "23 feb 2014"
+Date "24 feb 2014"
 Rev "43f0eac2"
 Comp ""
 Comment1 ""
@@ -145,10 +145,10 @@ F 3 "" H 1050 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCIEPWR J?
+L PCIEPWR J1
 U 1 1 530645D9
 P 800 2900
-F 0 "J?" H 850 2550 50  0000 L BNN
+F 0 "J1" H 850 2550 50  0000 L BNN
 F 1 "PCIEPWR" H 800 3000 50  0000 L BNN
 F 2 "PCIEPWR" H 950 3050 50  0001 C CNN
 F 3 "~" H 800 2900 60  0000 C CNN
@@ -214,10 +214,10 @@ F 3 "" H 7750 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RESISTOR R2
+L RESISTOR R4
 U 1 1 5306E596
 P 4200 1750
-F 0 "R2" H 4250 1700 50  0000 L BNN
+F 0 "R4" H 4250 1700 50  0000 L BNN
 F 1 "1K" H 4250 1600 50  0000 L BNN
 F 2 "" H 4300 1850 50  0001 C CNN
 F 3 "" H 4105 1805 60  0000 C CNN
@@ -411,15 +411,15 @@ Wire Wire Line
 Wire Wire Line
 	4550 850  4800 850 
 Wire Wire Line
-	4800 850  4800 900 
+	4800 850  4800 1300
 Wire Wire Line
-	4800 900  6750 900 
+	6750 900  4800 900 
 $Comp
 L CAPACITOR-NONPOLAR C3
 U 1 1 5306F159
 P 8000 1350
 F 0 "C3" H 8019 1354 50  0000 L BNN
-F 1 "4.7uF" H 8019 1291 50  0000 L BNN
+F 1 "4.7UF" H 8019 1291 50  0000 L BNN
 F 2 "" H 8000 1500 50  0001 C CNN
 F 3 "" H 8000 1350 60  0000 C CNN
 	1    8000 1350
@@ -429,4 +429,55 @@ Connection ~ 7850 1350
 Wire Wire Line
 	8100 1350 8150 1350
 Connection ~ 8150 1350
+Text GLabel 1000 2850 2    60   Input ~ 0
+12V0
+Text GLabel 1000 2700 2    60   Input ~ 0
+GND
+Wire Wire Line
+	850  2850 1000 2850
+Wire Wire Line
+	850  2700 1000 2700
+Wire Wire Line
+	850  2650 900  2650
+Wire Wire Line
+	900  2650 900  2750
+Connection ~ 900  2700
+Wire Wire Line
+	900  2750 850  2750
+Wire Wire Line
+	850  2800 900  2800
+Wire Wire Line
+	900  2800 900  2900
+Connection ~ 900  2850
+Wire Wire Line
+	900  2900 850  2900
+$Comp
+L LED D2
+U 1 1 530AD565
+P 4350 1300
+F 0 "D2" H 4350 1400 50  0000 C CNN
+F 1 "LED" H 4350 1200 50  0000 C CNN
+F 2 "~" H 4350 1300 60  0000 C CNN
+F 3 "~" H 4350 1300 60  0000 C CNN
+	1    4350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR R2
+U 1 1 530AD574
+P 3900 1300
+F 0 "R2" H 3950 1250 50  0000 L BNN
+F 1 "1K" H 3950 1150 50  0000 L BNN
+F 2 "" H 4000 1400 50  0001 C CNN
+F 3 "" H 3805 1355 60  0000 C CNN
+	1    3900 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1300 3900 1300
+Wire Wire Line
+	4050 1300 4150 1300
+Wire Wire Line
+	4800 1300 4550 1300
+Connection ~ 4800 900 
 $EndSCHEMATC
