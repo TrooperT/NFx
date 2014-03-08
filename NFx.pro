@@ -1,7 +1,10 @@
-update=Friday, February 21, 2014 'AMt' 04:12:38 AM
+update=Monday, March 03, 2014 'PMt' 06:26:44 PM
 last_client=eeschema
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [pcbnew]
 version=1
 LastNetListRead=NFx.net
@@ -21,6 +24,7 @@ DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [pcbnew/libraries]
+LibDir=
 LibName1=capacitors
 LibName2=connect
 LibName3=connectors_molex_serial_53047-A123
@@ -46,14 +50,11 @@ LibName22=lib/bitfury
 LibName23=lib/NanoFury
 LibName24=lib/con-molex-2
 LibName25=lib/con-molex
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
+LibName26=lib/k16
 [eeschema]
 version=1
 LibDir=lib
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1

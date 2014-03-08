@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Monday, February 24, 2014 'AMt' 12:19:55 AM
+EESchema Schematic File Version 2  date Thursday, March 06, 2014 'AMt' 12:31:37 AM
 LIBS:power
 LIBS:74xgxx
 LIBS:74xx
@@ -90,9 +90,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "NanoFury NFx"
-Date "24 feb 2014"
+Date "6 mar 2014"
 Rev "43f0eac2"
 Comp ""
 Comment1 ""
